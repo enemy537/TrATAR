@@ -1,0 +1,57 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3253948148/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3253948148.dir/build.make CMakeFiles/cmTryCompileExec3253948148.dir/build
+make[1]: Entering directory '/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3253948148.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3253948148.dir/CheckSymbolExists.c.o   -c "/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTryCompileExec3253948148
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3253948148.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3253948148.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3253948148 -rdynamic 
+CMakeFiles/cmTryCompileExec3253948148.dir/CheckSymbolExists.c.o: na função `main':
+CheckSymbolExists.c:(.text+0x16): referência indefinida para `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3253948148.dir/build.make:88: recipe for target 'cmTryCompileExec3253948148' failed
+make[1]: *** [cmTryCompileExec3253948148] Error 1
+make[1]: Leaving directory '/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec3253948148/fast' failed
+make: *** [cmTryCompileExec3253948148/fast] Error 2
+
+File /home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec164757159/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec164757159.dir/build.make CMakeFiles/cmTryCompileExec164757159.dir/build
+make[1]: Entering directory '/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec164757159.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec164757159.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec164757159
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec164757159.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec164757159.dir/CheckFunctionExists.c.o  -o cmTryCompileExec164757159 -rdynamic -lpthreads 
+/usr/bin/ld: não foi possível encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec164757159.dir/build.make:88: recipe for target 'cmTryCompileExec164757159' failed
+make[1]: *** [cmTryCompileExec164757159] Error 1
+make[1]: Leaving directory '/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec164757159/fast' failed
+make: *** [cmTryCompileExec164757159/fast] Error 2
+
+

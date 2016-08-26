@@ -1,0 +1,226 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/DetectorMult.cpp
+DetectorMult.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/DetectorMult.h
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/DetectorMult.h
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+aruco/aruco.h
+-
+iostream
+-
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/KalmanMult.cpp
+KalmanMult.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/KalmanMult.h
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/KalmanMult.h
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/video/tracking.hpp
+-
+aruco/aruco.h
+-
+vector
+-
+Util.hpp
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/Util.hpp
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/ObjetoMult.cpp
+ObjetoMult.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/ObjetoMult.h
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/ObjetoMult.h
+cstdio
+-
+GL/gl.h
+-
+GL/glut.h
+-
+stdlib.h
+-
+stdio.h
+-
+aruco/aruco.h
+-
+SDL2/SDL.h
+-
+../lib/objparser.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/objparser.h
+../lib/renderer.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/renderer.h
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/ShowGLMult.cpp
+ShowGLMult.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/ShowGLMult.h
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/ShowGLMult.h
+GL/gl.h
+-
+GL/glut.h
+-
+algorithm
+-
+DetectorMult.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/DetectorMult.h
+ObjetoMult.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/ObjetoMult.h
+Util.hpp
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/Util.hpp
+glm/glm.hpp
+-
+SDL2/SDL.h
+-
+SDL2/SDL_mixer.h
+-
+KalmanMult.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/KalmanMult.h
+time.h
+-
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/Util.hpp
+glm/glm.hpp
+-
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/glm.cpp
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+glm.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/glm.h
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/glm.h
+GL/glut.h
+-
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/objparser.cpp
+objparser.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/objparser.h
+iostream
+-
+cmath
+-
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/objparser.h
+glm.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/glm.h
+vector
+-
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/renderer.cpp
+renderer.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/renderer.h
+iostream
+-
+cmath
+-
+algorithm
+-
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/renderer.h
+objparser.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/objparser.h
+
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/src/CavalosMult.cpp
+iostream
+-
+aruco/aruco.h
+-
+../lib/DetectorMult.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/DetectorMult.h
+../lib/ObjetoMult.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/ObjetoMult.h
+../lib/ShowGLMult.h
+/home/pedro/Dropbox/UFAL/LAPEC/SIa/Release 0.4/Novos/lib/ShowGLMult.h
+
+/usr/local/include/aruco/aruco.h
+markerdetector.h
+/usr/local/include/aruco/markerdetector.h
+boarddetector.h
+/usr/local/include/aruco/boarddetector.h
+cvdrawingutils.h
+/usr/local/include/aruco/cvdrawingutils.h
+
+/usr/local/include/aruco/board.h
+opencv2/core/core.hpp
+-
+string
+-
+vector
+-
+exports.h
+/usr/local/include/aruco/exports.h
+marker.h
+/usr/local/include/aruco/marker.h
+
+/usr/local/include/aruco/boarddetector.h
+opencv2/core/core.hpp
+-
+exports.h
+/usr/local/include/aruco/exports.h
+board.h
+/usr/local/include/aruco/board.h
+cameraparameters.h
+/usr/local/include/aruco/cameraparameters.h
+markerdetector.h
+/usr/local/include/aruco/markerdetector.h
+
+/usr/local/include/aruco/cameraparameters.h
+exports.h
+/usr/local/include/aruco/exports.h
+opencv2/core/core.hpp
+-
+string
+-
+
+/usr/local/include/aruco/cvdrawingutils.h
+exports.h
+/usr/local/include/aruco/exports.h
+aruco.h
+/usr/local/include/aruco/aruco.h
+
+/usr/local/include/aruco/exports.h
+
+/usr/local/include/aruco/marker.h
+vector
+-
+iostream
+-
+opencv2/core/core.hpp
+-
+exports.h
+/usr/local/include/aruco/exports.h
+cameraparameters.h
+/usr/local/include/aruco/cameraparameters.h
+
+/usr/local/include/aruco/markerdetector.h
+opencv2/core/core.hpp
+-
+cstdio
+-
+iostream
+-
+cameraparameters.h
+/usr/local/include/aruco/cameraparameters.h
+exports.h
+/usr/local/include/aruco/exports.h
+marker.h
+/usr/local/include/aruco/marker.h
+
