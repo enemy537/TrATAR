@@ -1,4 +1,4 @@
-Treatment Assitant using Augmented Reality
+Treatment Assistant using Augmented Reality **TrATAR**
 
 
 * Esse pacote de jogos foi desenvolvido na distribuição Ubuntu 14.10 64-bits
